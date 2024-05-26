@@ -6,6 +6,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    /* padding: 0; */
    
 }
 body{
@@ -39,7 +40,8 @@ body{
 .inner-item-1{
     display: flex;
     justify-content: end;
-    padding: 0px 0px ;
+    padding: 0px 10px ;
+    /* border: 1px solid black; */
 }
 
 .inner-child-1{
@@ -49,6 +51,7 @@ body{
     font-size: 12px;
 }
 .inner-child-1 a{
+    font-family: "Roboto", sans-serif;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.691);
     font-size: 12px;
@@ -57,7 +60,8 @@ body{
 }
 .inner-item-2{
     display: flex;
-    padding: 20px 0px;
+    padding: 10px 0px;
+    /* border: 1px solid black; */
 }
 .inner-child-2{
     display: flex;
@@ -110,7 +114,7 @@ body{
 
 .card_item{
     position: absolute;
-    top: 45px;
+    top: 35px;
     right: 104px;
     color: #eeeeee;
     font-size: 16px;
@@ -211,38 +215,70 @@ input:focus{
 
        /* section 2 css start */
        .section-2{
-        background-color: #292628;;
+       
+       /* height: 60px; */
+      
 
        }
        section nav{
+        background-color: #292628;
+        height: 50px;
+        
 
        }
        section nav .containerx{
-        /* padding: 5px; */
        width: 1100px;
         margin: auto;
-        /* border: 1px solid black; */
+        
+    
 
        }
        section nav .containerx .manu{
         display: flex;
        }
-       section nav .containerx .manu .manu-item {
+       section nav .containerx .manu .manu-item{
         display: flex;
+         height: 50px;
         align-items: center;
-        padding: 10px 10px;
+        padding: 10px 9px;
+        
+       }
+       .manu .manu-item:hover{
+        background-color: #d22753;
+        border-bottom: 4px solid white;
+        border-top: 4px solid transparent;
+       
+       
        }
        section nav .containerx .manu .manu-item .fa{
         color: white;
        }
        section nav .containerx .manu .manu-item a{
         text-decoration: none;
-        font-size: 14px;
-        font-weight: lighter;
+        font-size: 16px;
+        font-weight: 300;
+        /* padding: 10px 9px; */
         
         color: white;
-        /* display: block; */
-        padding: 3px 3px;
+        display: block; 
+         padding: 3px 3px;
+       }
+       .dropdown{
+        position: relative !important;
+
+       }
+       .dropdown:hover .dropdown-item{
+        display: block;
+       }
+       .dropdown .dropdown-item{
+        position: absolute;
+        display: none;
+        width: 825px;
+        background-color: white;
+        top: 46px;
+        left: 0;
+        
+        height: 500px;
        }
 
 
