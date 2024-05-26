@@ -272,14 +272,24 @@ input:focus{
        }
        .dropdown .dropdown-item{
         position: absolute;
-        display: none;
+        /* display: none; */
         width: 825px;
         background-color: white;
         top: 46px;
         left: 0;
-        
+        padding-top:30px ;
+        padding-left:10px;
         height: 500px;
        }
+       .item-box-inner a h5{
+        color: black;
+       }
+       .item-box-inner a p{
+        color: rgba(0, 0, 0, 0.803);
+       }
+     
+       
+       
 
 
 
