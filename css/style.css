@@ -277,61 +277,51 @@ input:focus{
         background-color: white;
         top: 46px;
         left: 0;
-        padding-top:30px ;
-        padding-left:10px;
-        height: 500px;
+        padding:15px 10px ;
+        /* padding-left:10px; */
+        min-height: 280px;
        }
        .item-box-1{
         display: flex;
+       }
+       .item-box-2{
         /* border: 1px solid black; */
+        padding-top: 10px;
        }
-       .item-box-inner{
-        border: 1px solid black;
-        /* border: 1px solid black; */
+       .item-box-nner{
+        width: 200px;
+       
        }
-
-       .item-box-ourer-text{
-        /* margin-top: 100px; */
-        width: 180px;
-        border: 1px solid black;
-        padding-left: 10px;
-       }
-       .item-box-inner a h5{
+       .item-box-nner a h5{
         color: black;
-       }
-       .item-box-inner a p{
-        color: rgba(0, 0, 0, 0.803);
-       }
-     
-       .item-box-inner-text{
-        display: flex;
-       }
-     .item-box-inner-text #dot{
-        width: 3px ;
-        height: 3px;
-        background-color: #909293;
-        display: block;
-        margin-top:13px ;
-      
 
-       } 
-    .dots{
-        background-color: red !important;
+       }
+       .item-box-inner-text{
+        padding-left:8px;
+       
+       
        }
        .item-box-inner-text a{
-        color:black !important;
-        text-decoration: none;
-        padding: 4px 10px !important;
-        /* padding-left: 5px; */
+        padding: 0px !important;
+        /* display: block; */
+       }
+       .item-box-inner-text a span{
+        color: #909293 !important;
+        transition: 200ms;
+        /* text-decoration: none; */
+       
+        font-size: 13px;
+        padding: 0px ;
+        padding-left:8px ;
+        display: block !important;
+
+
+       }
+       .item-box-inner-text a span:hover{
+        color: rgba(255, 0, 0, 0.72) !important;
         
        }
-       .item-box-inner-text a:hover {
-        color: red !important;
-       }
-       /* .item-box-inner-text a:hover img{
-        color: red !important;
-       }
-      */
+       
 
        
 
