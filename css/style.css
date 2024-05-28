@@ -214,12 +214,12 @@ input:focus{
       /* section 1 css end */
 
        /* section 2 css start */
-       .section-2{
+      
        
        /* height: 60px; */
       
 
-       }
+       /* } */
        section nav{
         background-color: #292628;
         height: 50px;
@@ -280,6 +280,7 @@ input:focus{
         padding:15px 10px ;
         /* padding-left:10px; */
         min-height: 280px;
+        z-index: 1;
        }
        .item-box-1{
         display: flex;
@@ -321,9 +322,162 @@ input:focus{
         color: rgba(255, 0, 0, 0.72) !important;
         
        }
-       
+       /* section 2 end  */
+       /* section 3 start */
 
+       .slider{
+        width: 100%;
+       }
+       .slider img{
+        width: 100%;
+       }
+       /* .slick-next:before {
+        font-family: slick;
+        font-size: 33px;
+        line-height: 1;
+        opacity: .75;
+        color: rgba(0, 0, 0, 0.557);
+     
+        right: 50px;
+        width: 50px ;
+        height: 50px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .slick-prev:before{
+        font-family: slick;
+        font-size: 20px;
+        line-height: 1;
+        opacity: .75;
+        color:green;
+        right: 600px;
+        width: 50px ;
+        height: 50px;
        
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+
+    }
+    .slick-next{
+        font-size: 18;
+        line-height: 0;
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 20px;
+        height: 20px;
+        right: 20px;
+        padding: 0;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: #d22753;
+        background-color: #4C69F9;
+        border: none;
+        outline: 0;
+        background: 0 0;
+    }
+    .slick-prev{
+        font-size: 18;
+        line-height: 0;
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 30px;
+        height: 30px;
+        left: 20px;
+        padding: 0;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        cursor: pointer;
+       
+        color: #d22753;
+        background-color: #4C69F9;
+        border: none;
+        outline: 0;
+        background: 0 0;
+      
+
+    }  */
+    .slick-next:before {
+        font-family: slick;
+        font-size: 20px;
+        line-height: 1;
+        opacity: .75;
+        color: #12b117;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .slick-next{
+        font-size: 18;
+        line-height: 0;
+        position: absolute;
+        top: 50%;
+        display: block;
+        /* display: none; */
+        width: 30px;
+        height: 30px;
+        right: 70px;
+        padding: 0;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: #d22753;
+        background-color: #4C69F9;
+        border: none;
+        outline: 0;
+        background: 0 0;
+    }
+    .slick-prev:before {
+        font-family: slick;
+        font-size: 20px;
+        line-height: 1;
+        opacity: 1;
+        z-index: 999;
+        color:red;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .slick-prev{
+        font-size: 18;
+        line-height: 0;
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 30px;
+        height: 30px;
+        left: 70px;
+        padding: 0;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: #d22753;
+        background-color: #4C69F9;
+        border: none;
+        outline: 0;
+        background: 0 0;
+    
+
+    }
+.title{
+    position: relative;
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.304);
+}
+
+
+   
 
 
 

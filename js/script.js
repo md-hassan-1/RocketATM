@@ -1,8 +1,7 @@
  
 let hoverx= document.querySelector(".card-total")
 let card = document.querySelector(".card_item")
-let text = document.querySelector("#afect-add")
-// let dot = document.querySelector("#dot")
+
 
 
 hoverx.addEventListener("mouseenter", function(){
@@ -21,12 +20,13 @@ card.addEventListener("mouseleave", function(){
     document.querySelector("#item-1").classList.remove("efect")
   
 })
-text.addEventListener("mouseenter", function(){
-    document.querySelector("#dot").classList.add("dots")
-    console.log("everything ok")
+$(".slider").slick({
+    slidesToShow: 1,
+  slidesToScroll: 1,
+//   autoplay: true,
+  autoplaySpeed: 2000,
+
+//    dots: true,
+  
     
-})
-text.addEventListener("mouseleave", function(){
-    document.querySelector("#dot").classList.remove("dots")
-  console.log("nothing ok")
 })
