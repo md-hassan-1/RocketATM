@@ -562,17 +562,31 @@ input:focus{
         width: 95px;
         display: none;
      padding: 2px ; 
-        transition: 500ms;
+        transition: 300ms;
         border-radius: 10px;
+        opacity: 0;
+    
+        
 
     }
     .inner-icon-box:hover{
         scale: 1.1;
         
     }
-    .inner-icon-box:hover a{
-        
+    .inner-icon-box:hover a{  
         display: block;
+        opacity: 1;
+        /* transform: translatex(-100px); */
+
+
+     
+        
+
+        
+
+    }
+    .inner-icon-box:hover a {  
+        /* display: block; */
         transform: translatex(-100px);
 
 
