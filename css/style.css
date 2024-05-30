@@ -474,8 +474,122 @@ input:focus{
     left: 0;
     bottom: 0;
     background-color:rgba(0, 0, 0, 0.304);
+    padding-left: 900px;
+    padding-top:50px ;
 }
+.caption-text-1{
+    padding: 14px 0px;
 
+}
+.caption-text-1 h1{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.788);
+}
+.caption-text-2{
+    padding: 22px 0px;
+
+}
+.caption-text-2 p{
+    font-size: 32px;
+  color: rgba(0, 0, 0, 0.652);
+}
+.caption-text-3{
+    display: flex;
+    padding: 8px 0px;
+
+}
+.caption-text-3 span{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.652);
+}
+.caption-text-3 div{
+    
+    border-left:15px solid red ;
+    border-right:10px solid  transparent ;
+    border-top:10px solid transparent ;
+    border-bottom:10px solid transparent ;
+}
+.caption-button button{
+        background-color: red;
+        font-size: 23px;
+        color: white;
+        padding: 12px 14px;
+        border-radius: 7px;
+        border: none;
+        margin-top: 16px;
+    }
+    .caption-button button:hover{
+        background-color: rgba(255, 0, 0, 0.829);
+
+    }
+    .icon-box-1{
+        width: 50px;
+       min-height: 293px;
+        /* border: 1px solid black; */
+        position: fixed;
+        top: 30px;
+        right: 30px;  
+        display: flex;   
+        flex-direction: column;  
+        align-items: center;
+        justify-content: space-between;  
+    }
+    .inner-icon-box{
+        width: 50px;
+        height: 50px;
+        width: 100%;
+        border-radius: 50%;
+        background-color:#fef99c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .inner-icon-box{
+    position: relative;
+    }
+    .inner-icon-box i{
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .inner-icon-box span{
+        position: absolute;
+        left: 0px;
+        display: none;
+        transition: 500ms;
+        animation-name: scroll;
+
+    }
+    .inner-icon-box:hover span{
+        display: block;
+        width: 300px;
+        
+
+    }
+   
+
+    .inner-icon-box span a{
+        font-size: 10px;
+        background-color: #292628;
+    padding: 5px 10px;
+    color: white;
+   
+    border-radius: 10px;
+    /* display: none; */
+    }
+    @keyframes slide {
+        from{
+            transform: translateX(0px);
+
+        }
+        to{
+            
+
+        }
+    }
+
+
+
+    
 
    
 

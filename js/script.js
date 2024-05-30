@@ -23,10 +23,10 @@ card.addEventListener("mouseleave", function(){
 $(".slider").slick({
     slidesToShow: 1,
   slidesToScroll: 1,
-//   autoplay: true,
+  autoplay: true,
   autoplaySpeed: 2000,
 
-//    dots: true,
+   dots: true,
   
     
 })
