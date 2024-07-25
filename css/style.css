@@ -409,6 +409,7 @@ input:focus{
         color: #e0f3e0;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        display: none;
     }
     .slick-next{
         font-size: 18;
@@ -427,6 +428,7 @@ input:focus{
         background-color: #4C69F9;
         border: none;
         outline: 0;
+        display: none;
         background: 0 0;
     }
     .slick-prev:before {
@@ -547,6 +549,7 @@ input:focus{
         align-items: center;
         justify-content: center;
         box-shadow:  2px 3px 10px  rgba(0, 0, 0, 0.849);
+        /* display: none; */
     }
     .inner-icon-box{
     position: relative;
@@ -618,8 +621,18 @@ input:focus{
 
 
         }
+    }
+    .custom{
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        cursor: pointer;
+        margin-top: 10px;
     } 
+.custom:hover{
+    background-color: #7c0221 !important;
 
+}
 
 
     
