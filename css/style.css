@@ -633,6 +633,20 @@ input:focus{
     background-color: #7c0221 !important;
 
 }
+.custome-2{
+    display: flex !important;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(79, 78, 78, 0.5);
+
+}
+.boxx-1{
+    /* border: 1px solid black; */
+}
+.boxx-2{
+    /* border: 1px solid black; */
+ 
+    align-items: start;
+}
 
 
     
