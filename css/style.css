@@ -647,7 +647,24 @@ input:focus{
  
     align-items: start;
 }
-
+.inner-counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .inner-countainer-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius:5px; */
+/* } */
+.inner-countainer-box h4{
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
 
     
 
